@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'gem-info/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "Gem-Info"
+  spec.name          = "gem-info"
   spec.version       = GemInfo::VERSION
   spec.authors       = ["Jelle Vandebeeck","Senthil Nayagam"]
   spec.email         = ["jelle@fousa.be","senthil@railsfactory.com"]
