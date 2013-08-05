@@ -2,7 +2,7 @@ require "curl_wrapper"
 require "clipboard"
 require "json/pure"
 
-module Trump
+module GemInfo
   class Base
     class << self
       def add(name)

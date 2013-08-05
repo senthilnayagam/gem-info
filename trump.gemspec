@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'trump/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "trump"
-  spec.version       = Trump::VERSION
-  spec.authors       = ["Jelle Vandebeeck"]
-  spec.email         = ["jelle@fousa.be"]
+  spec.name          = "Gem-Info"
+  spec.version       = GemInfo::VERSION
+  spec.authors       = ["Jelle Vandebeeck","Senthil Nayagam"]
+  spec.email         = ["jelle@fousa.be","senthil@railsfactory.com"]
   spec.description   = %q{Add a gem to the Gemfile with more info in comments.}
   spec.summary       = %q{Add a gem to the Gemfile with more info in comments.}
-  spec.homepage      = "http://github.com/fousa/trump"
+  spec.homepage      = "https://github.com/senthilnayagam/gem-info"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
