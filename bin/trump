@@ -1,15 +1,15 @@
 #! /usr/bin/ruby
 
 require "thor"
-require "trump"
+require "gem-info"
 
-class TrumpCommand < Thor
+class GemInfoCommand < Thor
   default_command :add
 
   desc "add [NAME]", "Add the last version of the gem to the Gemfile with all the extra data supplied."
   def add(name)
-    Trump::Base.add(name)
+    GemInfo::Base.add(name)
   end
 end
 
-TrumpCommand.new.add(ARGV[0])
+GemInfoCommand.new.add(ARGV[0])
