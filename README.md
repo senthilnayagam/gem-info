@@ -1,3 +1,12 @@
+# Gem Info
+
+simple command to output what the gem does
+
+originally forked from here
+https://github.com/fousa/trump
+
+
+
 # Trump
 
 Add a gem to the Gemfile with more info in comments. This will not add it directly met add it to your clipboard, so you can easily past it where you want inside your Gemfile.
